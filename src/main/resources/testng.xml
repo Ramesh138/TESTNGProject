@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Opentaps" parallel="classes" thread-count="3" verbose="5">
+	<test name="Leads">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<!-- <class name="testcases.TC001_Login" /> -->
+			<!-- <class name="testcases.TC002_LoginFailure" /> -->
+			<!-- <class name="testcases.TC003_CreateLead" /> -->
+			<class name="testcases.TC004_DeleteLead" />
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
